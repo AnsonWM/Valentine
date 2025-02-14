@@ -17,8 +17,8 @@ function dropPetal() {
 
         // Jika bunga habis (semua kelopak jatuh)
         if (flowerCount === 0) {
-            // Setelah semua kelopak jatuh, bunga akan direset dan bisa jatuh lagi
             setTimeout(() => {
+                // Setelah semua kelopak jatuh, bunga akan direset dan bisa jatuh lagi
                 flowerCount = petals.length;
                 resetFlower();  // Reset bunga untuk bisa jatuh lagi
             }, 1000);
